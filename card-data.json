@@ -1,0 +1,58 @@
+{
+    "cards": [
+        {
+            "title": "Design System",
+            "text": "10 sections",
+            "img": "https://github.com/Ceci007/image-repository/blob/master/course-1.png?raw=true",
+            "side": "1 Jan"
+        }, 
+        {
+            "title": "React for Designers",
+            "text": "12 sections",
+            "img": "https://github.com/Ceci007/image-repository/blob/master/course-2.jpeg?raw=true",
+            "side": "13 Jan"
+        },
+        {
+            "title": "Sound and Design",
+            "text": "5 sections",
+            "img": "https://github.com/Ceci007/image-repository/blob/master/course-3.jpg?raw=true",
+            "side": "3 Feb"
+        },
+        {
+            "title": "Vector art",
+            "text": "3 sections",
+            "img": "https://github.com/Ceci007/image-repository/blob/master/course-4.jpg?raw=true",
+            "side": "7 Mar"
+        }, 
+        {
+            "title": "PSD to HTML",
+            "text": "8 sections",
+            "img": "https://github.com/Ceci007/image-repository/blob/master/course-5.jpg?raw=true",
+            "side": "11 Mar"
+        },
+        {
+            "title": "Vue.Js",
+            "text": "12 sections",
+            "img": "https://github.com/Ceci007/image-repository/blob/master/course-6.jpg?raw=true",
+            "side": "20 Mar"
+        },
+        {
+            "title": "Angular",
+            "text": "4 sections",
+            "img": "https://github.com/Ceci007/image-repository/blob/master/angular.png?raw=true",
+            "side": "2 Apr"
+        }, 
+        {
+            "title": "Bootstrap",
+            "text": "2 sections",
+            "img": "https://github.com/Ceci007/image-repository/blob/master/bootstrap.png?raw=true",
+            "side": "11 Apr"
+        },
+        {
+            "title": "React Native",
+            "text": "12 sections",
+            "img": "https://github.com/Ceci007/image-repository/blob/master/react-native.png?raw=true",
+            "side": "25 Apr"
+        }
+    ]
+}

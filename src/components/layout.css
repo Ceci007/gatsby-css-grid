@@ -1,0 +1,134 @@
+.Hero {
+  background: linear-gradient(45deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("../images/wallpaper1.jpg");
+  height: 92rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+}
+
+.HeroGroup {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 15rem 5rem;
+  text-align: center;
+}
+
+.HeroGroup span {
+  color: var(--color-secondary);
+}
+
+.Hero h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 6rem;
+  line-height: 1.2;
+  opacity: 0;
+  animation: heroAnimation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation-delay: 1s;
+}
+
+.Hero p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 3rem;
+  line-height: 1.5;
+  animation: heroAnimation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+
+.Hero a {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.9rem 2rem;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 2.5rem;
+  transition: 1s;
+}
+
+.Hero a:hover {
+  background: white;
+  color: black;
+}
+
+@media (max-width: 780px) {
+  .Hero .Logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 10rem 2rem;
+  }
+
+  .Hero h1 {
+    font-size: 4rem;
+  }
+
+  .Hero p {
+    font-size: 2.4rem;
+  }
+}
+
+@keyframes heroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Hero .Logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 4rem;
+  margin: 19rem 0;
+  justify-items: center;
+  position: relative;
+  z-index: 50;
+}
+
+.Cards h2 {
+  margin: 5rem 2rem;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 700;
+  background-image: linear-gradient(104deg, var(--color-black-1) 0%, var(--color-black-2) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.CardGroup {
+  margin: 5rem 4rem 10rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
+  justify-items: center;
+}
+
+@media (max-width: 1060px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

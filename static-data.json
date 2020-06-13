@@ -1,0 +1,55 @@
+{
+    "cells": [
+        {
+            "title": "Intro to React",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "Basic Styling in CSS",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "Adaptive Layout with CSS Grid",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "Interactions and Animations",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "SVG Animation",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "Components and Props",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "States and Events",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "Styled Components",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "Static Data with JSON",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "GraphQL with Contentful",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "Publish to Netlify",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        },
+        {
+            "title": "Payment with Stripe Checkout",
+            "image": "https://github.com/Ceci007/image-repository/blob/master/logo-react-black.png?raw=true"
+        }
+    ]
+}
+
+
+
